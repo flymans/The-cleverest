@@ -1,10 +1,11 @@
 import React from 'react';
 
+import HintTable from './components/HintTable';
+
 function App() {
   return (
-    <div className="App">
-      fd
-    </div>
+    <HintTable />
+
   );
 }
 

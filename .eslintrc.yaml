@@ -2,7 +2,6 @@ extends:
   - react-app
   - airbnb
   - airbnb/hooks
-  - 'plugin:sonarjs/recommended'
 rules:
   max-len:
     - error
@@ -35,8 +34,6 @@ rules:
         - sibling
         - index
       newlines-between: always
-plugins:
-  - sonarjs
 settings:
   import/resolver:
     node:
